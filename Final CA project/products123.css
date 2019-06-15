@@ -1,0 +1,194 @@
+body {
+    background-color: snow;
+}
+
+.navContent {
+    border-style: outset;
+}
+
+.navContent li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 40px;
+    font-family: "VT323", monospace;
+}
+
+#compName {
+    margin-right: 770px;
+    margin-left: 53px;
+}
+
+#shopCart {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    padding: 25px 0px 0px 13px;
+}
+
+.clickable, .clickable:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.clickable:hover {
+    color: limegreen;
+}
+
+.titles {
+    font-family: "VT323", monospace;
+    font-size: 35px;
+    margin: 50px 0px 30px 95px;
+}
+
+.product {
+    width: 32%;
+    display: inline-block;
+    padding-top: 45px;
+}
+
+.productPhoto {
+    width: 300px;
+    height: 300px;
+    border: 4px solid lightgray;
+}
+
+#pageOptions {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: "VT323", monospace;
+}
+
+#page1, #page2, #page3 {
+    padding: 0px 10px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+#page1:hover, #page2:hover, #page3:hover {
+    color: limegreen;
+}
+
+footer {
+    background-color: rgb(226, 224, 224);
+    margin-top: 40px;
+    padding: 1px;
+}
+
+#about {
+    font-family: "VT323", monospace;
+    font-size: 35px;
+    margin: 30px 0px 0px 92px;
+}
+
+#aboutCompany {
+    margin-left: 92px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#social {
+    width: 30%;
+    display: inline-block;
+    float: right;
+}
+
+#ending {
+    width: 60%;
+    display: inline-block;
+}
+
+#rightSide {
+    font-family: "VT323", monospace;
+    font-size: 35px;
+    margin: 30px 0px 0px 0px;
+}
+
+#phone {
+    font-size: 18px;
+}
+
+#fakeAddress {
+    font-size: 18px;
+}
+
+#facebook, #facebook:visited {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgba(0, 132, 255, 0.884)
+}
+
+#twitter, #twitter:visited {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgba(0, 132, 255, 0.884)
+}
+
+@media only screen and (max-width: 376px) {
+    .navContent {
+        padding-left: 20px;
+    }
+    
+    .navContent li {
+        font-size: 38px;
+        padding: 10px 10px 10px 10px;
+        margin-left: 9px;
+    }
+    
+    #compName {
+        margin-right: 80px;
+        margin-left: 9px;
+    }
+
+    #shopCart {
+        padding-top: 15px;
+    }
+
+    .titles {
+        margin-left: 30px;
+    }
+
+    .product {
+        text-align: center;
+    }
+
+    #ending, #social, .product {
+        width: 100%;
+    }
+
+    #about, #aboutCompany {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    #aboutCompany {
+        margin-bottom: 30px;
+    }
+    
+    #rightSide {
+        margin-top: 0px;
+    }
+
+    #rightSide, #phone, #fakeAddress, #facebook, #twitter {
+        margin-left: 29px;
+    }
+
+    #social {
+        background-color: rgb(226, 224, 224);
+    }
+
+    #phone {
+        margin-top: 15px;
+        margin-bottom: 15px; 
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .product {
+        width: 23%;
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+}

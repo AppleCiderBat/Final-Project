@@ -1,0 +1,252 @@
+body {
+    background-color: snow;
+}
+
+.navContent li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px 20px 0px 20px;
+    font-size: 40px;
+    font-family: "VT323", monospace;
+}
+
+#compName {
+    margin-right: 770px;
+    margin-left: 53px;
+}
+
+#shopCart {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    padding: 25px 0px 0px 13px;
+}
+
+.clickable, .clickable:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.clickable:hover {
+    color: limegreen;
+}
+
+.titles {
+    font-family: "VT323", monospace;
+    font-size: 35px;
+    margin: 50px 0px 30px 95px;
+}
+
+#featured {
+    background: linear-gradient(to bottom right, lavender, blue); 
+    padding: 40px;
+    border: 4px solid lightgray;
+    padding-top: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#featImg {
+    border: 4px solid lightgrey;
+    display: inline-block;
+}
+
+#featInfo {
+    display: inline-block;
+}
+
+#featLine1 {
+    margin-top: 40px;
+    color: snow;
+    font-size: 16px;
+}
+
+#featLine2 {
+    color: snow;
+    font-size: 50px;
+}
+
+#featLine3 {
+    color: snow;
+    font-size: 18px;
+}
+
+#learnMore {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: snow;
+}
+
+.product {
+    width: 32%;
+    display: inline-block;
+}
+
+.productPhoto {
+    width: 300px;
+    height: 300px;
+    border: 4px solid lightgray;
+}
+
+#homeToProdLink {
+    color: rgba(0, 132, 255, 0.884);
+    margin-left: 95px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(226, 224, 224);
+    margin-top: 100px;
+    padding: 1px;
+}
+
+#about {
+    font-family: "VT323", monospace;
+    font-size: 35px;
+    margin: 30px 0px 0px 92px;
+}
+
+#aboutCompany {
+    margin-left: 92px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#social {
+    width: 30%;
+    display: inline-block;
+    float: right;
+}
+
+#ending {
+    width: 60%;
+    display: inline-block;
+}
+
+#rightSide {
+    font-family: "VT323", monospace;
+    font-size: 35px;
+    margin: 30px 0px 0px 0px;
+}
+
+#phone {
+    font-size: 18px;
+}
+
+#fakeAddress {
+    font-size: 18px;
+}
+
+#facebook, #facebook:visited {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgba(0, 132, 255, 0.884)
+}
+
+#twitter, #twitter:visited {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgba(0, 132, 255, 0.884)
+}
+
+@media only screen and (max-width: 376px) {
+    .navContent {
+        padding-left: 20px;
+    }
+    
+    .navContent li {
+        font-size: 38px;
+        padding: 10px 10px 0px 10px;
+        margin-left: 9px;
+    }
+    
+    #compName {
+        margin-right: 80px;
+        margin-left: 9px;
+    }
+
+    #shopCart {
+        padding-top: 15px;
+    }
+
+    #featImg {
+        width: 270px;
+    }
+
+    #featLine1, #featLine2 {
+        margin-top: 15px;
+    }
+
+    #featLine2 {
+        margin-bottom: 22px;
+    }
+
+    .titles, #homeToProdLink {
+        margin-left: 30px;
+    }
+
+    .product {
+        text-align: center;
+    }
+
+    #ending, #social, .product {
+        width: 100%;
+    }
+
+    #about, #aboutCompany {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    #aboutCompany {
+        margin-bottom: 30px;
+    }
+    
+    #rightSide {
+        margin-top: 0px;
+    }
+
+    #rightSide, #phone, #fakeAddress, #facebook, #twitter {
+        margin-left: 29px;
+    }
+
+    #social {
+        background-color: rgb(226, 224, 224);
+    }
+
+    #phone {
+        margin-top: 15px;
+        margin-bottom: 15px; 
+    }
+}
+
+@media only screen and (min-width: 400px) { 
+    #featImg {
+        margin-top: 13px;
+        margin-left: 60px;
+    }
+    
+    #featInfo {
+        padding-left: 100px;
+        position: absolute;
+        margin-top: 45px;
+    }
+
+    #featLine1, #featLine2, #featLine3 {
+        margin-top: 10px;
+    }
+
+    #featLine2 {
+        margin-bottom: 25px;
+    }
+
+    .product {
+        width: 26%;
+        padding-left: 98px;
+    }
+}
